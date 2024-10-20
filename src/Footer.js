@@ -1,5 +1,8 @@
 import React from 'react';
-import { Box, Typography, Container, Grid } from '@mui/material';
+import { Box, Typography, Container, Grid, IconButton } from '@mui/material';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
   return (
@@ -37,6 +40,33 @@ const Footer = () => {
                   Email: info@tttravels.com
                 </a>
               </Typography>
+              {/* Social Media Icons */}
+              <Box sx={{ mt: 2 }}>
+                <IconButton 
+                  color="inherit" 
+                  href="https://www.facebook.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <FacebookIcon />
+                </IconButton>
+                <IconButton 
+                  color="inherit" 
+                  href="https://www.twitter.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <TwitterIcon />
+                </IconButton>
+                <IconButton 
+                  color="inherit" 
+                  href="https://www.instagram.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <InstagramIcon />
+                </IconButton>
+              </Box>
             </Grid>
           </Grid>
         </Container>

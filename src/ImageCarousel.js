@@ -11,10 +11,10 @@ import bus1 from './assets/bus1.avif';
 const imageData = [
   { name: 'Swift Dzire', image: swift },
   { name: 'Toyota Innova', image: toyota },
-//   { name: 'Hyundai Creta', image: hyundai },
+  // { name: 'Hyundai Creta', image: hyundai },
   { name: 'Etios Vehicle', image: etios },
   { name: 'Bus', image: bus1 },
-//   { name: 'Bus 2', image: bus2 },
+  // { name: 'Bus 2', image: bus2 },
 ];
 
 const ImageCarousel = () => {
@@ -31,6 +31,14 @@ const ImageCarousel = () => {
 
   return (
     <Box sx={{ maxWidth: '100%', margin: 'auto', padding: 2 }}>
+      {/* Content at the top of the images */}
+      <Typography variant="h4" sx={{ textAlign: 'center', color: '#D4145A', mb: 2 }}>
+        Welcome to TT Travels
+      </Typography>
+      <Typography variant="body1" sx={{ textAlign: 'center', color: '#414a4c', mb: 4 }}>
+        Your reliable partner for car and bus rentals in Tirupati.
+      </Typography>
+
       <Slider {...settings}>
         {imageData.map((item, index) => (
           <Box key={index} sx={{ position: 'relative' }}>
