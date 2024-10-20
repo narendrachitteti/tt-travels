@@ -19,7 +19,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '300',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Toyota Innova',
@@ -29,7 +29,7 @@ const carData = [
     transmission: 'Automatic',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Hyundai Creta',
@@ -39,7 +39,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Etios vehicle',
@@ -49,7 +49,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Tempo vehicle',
@@ -59,7 +59,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Tempo vehicle',
@@ -69,7 +69,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Tempo vehicle',
@@ -79,7 +79,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Bus vehicle',
@@ -89,7 +89,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
   {
     name: 'Bus vehicle',
@@ -99,7 +99,7 @@ const carData = [
     transmission: 'Manual',
     airConditioned: 'Yes',
     driverAllowance: '500',
-    phone: '+91 9876543210',
+    phone: '+91 8885544518',
   },
 ];
 

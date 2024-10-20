@@ -32,11 +32,8 @@ const ImageCarousel = () => {
   return (
     <Box sx={{ maxWidth: '100%', margin: 'auto', padding: 2 }}>
       {/* Content at the top of the images */}
-      <Typography variant="h4" sx={{ textAlign: 'center', color: '#D4145A', mb: 2 }}>
-        Welcome to TT Travels
-      </Typography>
-      <Typography variant="body1" sx={{ textAlign: 'center', color: '#414a4c', mb: 4 }}>
-        Your reliable partner for car and bus rentals in Tirupati.
+      <Typography variant="h5" sx={{ textAlign: 'center', color: '#414a4c', mb: 2 }}>
+        Welcome to TT Travels Your reliable partner for car and bus rentals in Tirupati.
       </Typography>
 
       <Slider {...settings}>
