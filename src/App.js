@@ -9,6 +9,9 @@ import ImageCarousel from './ImageCarousel';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Andhrapradesh from './pages/Andhrapradesh'
+import Tamilnadu from './pages/TamilNadu';
+import KeralaTemples from './pages/Kerala';
+import KarnatakaTemples from './pages/Karnataka';
 
 function App() {
   return (
@@ -29,6 +32,10 @@ function App() {
             {/* About Us Route */}
             <Route path="/about" element={<AboutUs />} />
             <Route path="/temples/andhra-pradesh" element={<Andhrapradesh />} /> {/* Andhra Pradesh route */}
+            <Route path="/temples/tamil-nadu" element={<Tamilnadu />} /> 
+            <Route path="/temples/kerala" element={<KeralaTemples />} /> 
+            <Route path="/temples/karnataka" element={<KarnatakaTemples />} /> 
+
           </Routes>
         </Container>
         {/* Footer */}
